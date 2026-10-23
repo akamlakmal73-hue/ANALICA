@@ -66,6 +66,7 @@
     '#authScreen .auth-foot{margin-top:13px;padding-top:10px;border-top:1px solid rgba(255,255,255,.24);text-align:center;color:rgba(255,255,255,.78);font-size:9px;letter-spacing:.5px}',
     '#authScreen .auth-note{text-align:center;color:rgba(255,255,255,.88);font-size:10px;margin:10px 10px 0;line-height:1.6}',
     '@media(min-width:600px){#authScreen .auth-wrap{max-width:320px}#authScreen .auth-card{padding:22px 19px 16px}}',
+     '@media(min-width:800px){#authScreen{background-image:linear-gradient(180deg,rgba(4,16,20,.10),rgba(4,16,20,.30)),url("bg-kabut-desktop.jpg")}}',
     '#authOut{position:fixed;z-index:900;top:calc(10px + env(safe-area-inset-top,0px));right:12px;border:0;border-radius:999px;padding:8px 14px;font:600 13px system-ui,-apple-system,sans-serif;background:rgba(236,232,222,.92);color:#26332d;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.15)}',
     '#authOut[hidden]{display:none}',
     '#authOut:focus-visible{outline:2px solid #26332d;outline-offset:2px}'
@@ -77,7 +78,7 @@
   ov.innerHTML =
     '<div class="auth-wrap">' +
       '<div class="auth-brand-row">' +
-        '<div class="auth-mark"><img src="icons/login-logo.png" alt="Logo ANALICA"></div>' +
+        '<div class="auth-mark"><img src="bg-kabut.jpg" alt="Logo ANALICA"></div>' +
         '<div class="brand-name">ANALICA</div>' +
         '<div class="brand-tag">' + TXT.tag + '</div>' +
       '</div>' +
