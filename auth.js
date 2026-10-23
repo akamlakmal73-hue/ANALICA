@@ -72,7 +72,10 @@
     '#authOut:focus-visible{outline:2px solid #26332d;outline-offset:2px}'
   ].join('\n');
   document.head.appendChild(css);
-
+var tema = document.createElement('link');
+  tema.rel = 'stylesheet';
+  tema.href = 'tema.css';
+  document.head.appendChild(tema);
   var ov = document.createElement('div');
   ov.id = 'authScreen';
   ov.innerHTML =
