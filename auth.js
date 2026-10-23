@@ -41,7 +41,7 @@
   var css = document.createElement('style');
   css.textContent = [
     '#authScreen{position:fixed;inset:0;z-index:1000;overflow:auto;display:flex;align-items:center;justify-content:center;padding:24px 18px;',
-      'background-color:#15242b;background-image:linear-gradient(180deg,rgba(4,16,20,.10),rgba(4,16,20,.30)),url("icons/login-bg.jpg");background-position:center;background-size:cover;background-repeat:no-repeat}',
+      'background-color:#15242b;background-image:linear-gradient(180deg,rgba(4,16,20,.10),rgba(4,16,20,.30)),url("bg-kabut.jpg");background-position:center;background-size:cover;background-repeat:no-repeat}',
     '#authScreen[hidden]{display:none}',
     '#authScreen .auth-wrap{width:100%;max-width:310px;margin:auto}',
     '#authScreen .auth-brand-row{display:flex;flex-direction:column;align-items:center;gap:7px;margin:0 0 16px;text-align:center;color:#fff}',
@@ -78,7 +78,7 @@
   ov.innerHTML =
     '<div class="auth-wrap">' +
       '<div class="auth-brand-row">' +
-        '<div class="auth-mark"><img src="bg-kabut.jpg" alt="Logo ANALICA"></div>' +
+        '<div class="auth-mark"><img src="icons/login-logo.png" alt="Logo ANALICA"></div>' +
         '<div class="brand-name">ANALICA</div>' +
         '<div class="brand-tag">' + TXT.tag + '</div>' +
       '</div>' +
